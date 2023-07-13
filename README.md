@@ -2,9 +2,8 @@
 Created by Pablo Cruz-Morales
 pcruzm@biosustain.dtu.dk
 Update july 2023
-
-# This is  A simple parser to extract all the antismash annotated files in a tab separated table 
-# Just copy it into the folder with folders of antismash 5,6 or 7 outputs and obtain a parseable table 
+This is  A simple parser to extract all the antismash annotated files in a tab separated table 
+Just copy it into the folder with folders of antismash 5,6 or 7 outputs and obtain a parseable table 
 
     wget  https://github.com/WeMakeMolecules/Megasynthase_string_miner/raw/main/antismash_domain_parser.pl
     use:  perl AS_domain_parser_folder.pl foldername
@@ -14,7 +13,7 @@ Output structure:
 Folder name locus_tag region_product  AA_seq Domain monomers
 # VIVA LA PERL!!!
 
-    example
+    example using other scripts from **https://github.com/WeMakeMolecules**
     download genomes: 
     wget https://github.com/WeMakeMolecules/fun-git/raw/main/download_bacterial_genomes.sh
     sh download_bacterial_genomes.sh 'Streptomyces yokosukanensis'
