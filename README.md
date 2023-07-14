@@ -4,7 +4,7 @@ pcruzm@biosustain.dtu.dk
 
 Updated: july 2023
 
-This is  A simple parser to extract all the antismash annotated files in a tab separated table 
+This is  a simple parser to extract all the antismash annotated files in a tab separated table.  
 Just copy it into the folder with folders of antismash 5,6 or 7 outputs and obtain a parseable table 
 
     wget  https://github.com/WeMakeMolecules/Megasynthase_string_miner/raw/main/antismash_domain_parser.pl
@@ -13,7 +13,6 @@ Just copy it into the folder with folders of antismash 5,6 or 7 outputs and obta
 output goes into the STDOUT
 Output structure: 
 Folder name locus_tag region_product  AA_seq Domain monomers
-# VIVA LA PERL!!!
 
     example using other scripts from **https://github.com/WeMakeMolecules**
     download genomes: 
@@ -48,3 +47,4 @@ Folder name locus_tag region_product  AA_seq Domain monomers
     ./Streptomyces_sp_KS_5_GCF900105275/NZ_FNTE01000002.final.gbk	complement(1159957..1168641)	6666666.306174.peg.9131	t1pks	ohmal-mal	t1pks	 KS AT KR ACP KS AT ACP Thioesterase
 
 
+# VIVA LA PERL!!!
