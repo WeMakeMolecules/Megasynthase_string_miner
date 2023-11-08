@@ -1,6 +1,6 @@
 ##################################################################################
 # AS_domain_parser_folder.pl
-# by Pablo Cruz-Morales august 25 2013
+# by Pablo Cruz-Morales august 25 2023
 # A simple parser to extract all the antismash7 annotated files in a cute table 
 # megasynthase domains strings are now homogenized
 # all domain strings are now N-C terminal oriented
